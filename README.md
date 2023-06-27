@@ -23,13 +23,13 @@ For more Information，you can check my posts: https://www.lanzhiheng.com/posts/
 Add this line to your Gemfile:
 
 ```
-gem 'wechat-pay'
+gem 'daqing-wechat-pay', require: 'wechat-pay'
 ```
 
 or development version
 
 ```
-gem 'wechat-pay', :github => 'lanzhiheng/wechat-pay'
+gem 'daqing-wechat-pay', :github => 'daqing/wechat-pay', require: 'wechat-pay'
 ```
 
 And then execute:
